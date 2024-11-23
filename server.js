@@ -14,7 +14,6 @@ app.put("/echo", (req, res) => {
 })
 
 app.post("/echo", (req, res) => {
-    console.log(req.body)
 	res.send(req.body)
 })
 
