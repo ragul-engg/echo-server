@@ -6,7 +6,7 @@ const PORT = 9000;
 app.use(express.json());
 
 app.get("/echo", (req, res) => {
-  res.send(req);
+  res.send(req.body);
 });
 
 app.put("/echo", (req, res) => {
